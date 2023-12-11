@@ -46,8 +46,10 @@ width: 1158px;}
             letter-spacing: 0.32px;
         border-bottom: 4px solid #404BBF;}
 
-.header-container {display: flex;
-    justify-content: space-between;}
+.container {display: flex;
+    justify-content: space-between;
+margin: 0 auto;
+padding: 0 15px;}
 
 .list-address {display: flex;
     gap: 40px;}
