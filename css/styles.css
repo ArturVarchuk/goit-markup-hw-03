@@ -167,7 +167,7 @@ max-width: 496px;
         padding-bottom: 120px;
     }
 
-        .feature-list-item {}
+        .feature-list-item {width: calc((100% - 72px) / 4);}
 
     .title-feature {color:#2E2F42;
         font-size: 20px;
@@ -230,7 +230,8 @@ margin-bottom: 72px;}
 
                 /* Section 4 */
 
-        .section-portfolio {padding-bottom: 120px;}
+        .section-portfolio {padding-top: 120px;
+            padding-bottom: 120px;}
 
     .title-our-portfolio {color: #2E2F42;
         text-align: center;
@@ -245,7 +246,7 @@ margin-bottom: 72px;}
 margin-bottom: 72px;}
 
         .portfolio-list {display: flex;
-            row-gap: 48px;
+        row-gap: 48px;
             gap: 24px;
             flex-wrap: wrap;
             margin-bottom: 120px;}
