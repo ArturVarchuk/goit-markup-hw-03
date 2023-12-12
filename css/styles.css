@@ -115,7 +115,7 @@ margin-right: auto;}
 
 /* Hero */
 
-.hero-container {display: block;
+.container {display: block;
         margin-left: auto;
         margin-right: auto;
         width: 1440px;
@@ -201,7 +201,6 @@ max-width: 496px;
 
  /* Section 3 */
  
-.portfolio-container {display: block;}
 .people-name {border-radius: 0px 0px 4px 4px;
 padding: 32px 0;}
 
