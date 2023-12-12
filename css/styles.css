@@ -47,11 +47,6 @@ width: 1158px;}
             letter-spacing: 0.32px;
         border-bottom: 4px solid #404BBF;}
 
-.container-top-line {display: flex;
-justify-content: space-between;
-margin: 0 auto;
-padding: 0 15px;
-width: 1158px;}
 
 .menu-nav {width: auto;
 margin-right: auto;}
