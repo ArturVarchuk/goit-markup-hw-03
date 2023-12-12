@@ -11,7 +11,6 @@ ul {list-style-type: none;
 
 a {text-decoration: none;}
 
-img {display: block;}
 
 .container {max-width: 1158px;
 padding: 0 15px;
@@ -47,7 +46,7 @@ width: 1158px;}
         border-bottom: 4px solid #404BBF;}
 
 .container-top-line {display: flex;
-    justify-content: space-between;
+justify-content: space-between;
 margin: 0 auto;
 padding: 0 15px;
 width: 1158px;}
@@ -261,13 +260,12 @@ display: block;}
 margin-bottom: 72px;}
 
         .portfolio-list {display: flex;
-            row-gap: 48px;
             gap: 24px;
-            flex-wrap: wrap;}
+            flex-wrap: wrap;
+            row-gap: 48px;
+        }
 
-            .portfolio-list-item {padding-bottom: 32px;
-                ;
-}
+            .portfolio-list-item {padding-bottom: 32px;}
 
     .title-portfolio {color:#2E2F42;
         font-size: 20px;
