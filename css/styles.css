@@ -221,7 +221,7 @@ margin-bottom: 72px;}
     .img-our-team {background-color: #FFFFFF;
         margin-bottom: 32px;
     display: flex;}
-    
+
 
     .title-name {color:#2E2F42;
         text-align: center;
@@ -292,7 +292,8 @@ padding: 100px 0;
     margin-left: auto;
     width: 1440px;}
 
-    .logo-footer {display: inline-block; margin-bottom: 16px;}
+    .logo-footer {display: inline-block;
+         margin-bottom: 16px;}
 
     .logo-footer-studio {color:#F4F4FD;
         font-family: "Raleway", sans-serif;
