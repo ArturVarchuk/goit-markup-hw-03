@@ -11,6 +11,8 @@ ul {list-style-type: none;
 
 a {text-decoration: none;}
 
+img{ display: block;}
+
 
 .container {max-width: 1158px;
 padding: 0 15px;
@@ -26,6 +28,8 @@ margin-left: auto;
 margin-right: auto;
 display: flex;
 }
+
+.container-top-line {display: flex;}
 
 .menu-nav {display: flex;
 align-items: center;
@@ -154,7 +158,7 @@ max-width: 496px;
         .button:focus {background-color:#404BBF;}
         
         /* Section 2 */
-.section-feature {}
+.section-feature {padding: 120px 0;}
 
     .visually-hidden {position: absolute;
     width: 1px;
@@ -244,7 +248,7 @@ margin-bottom: 72px;}
 width: 1158px;
 display: block;}
 
-        .section-portfolio {
+        .section-portfolio {padding-top: 120px;
             padding-bottom: 120px;}
 
     .title-our-portfolio {color: #2E2F42;
@@ -302,7 +306,10 @@ padding: 100px 0;
         text-transform: uppercase;
         padding-top: 24px;
         padding-bottom: 24px;
-        margin-right: 76px;}
+        margin-right: 76px;
+        display: inline-block;
+        margin-right: 16px;
+    }
 
     .logo-footer-studio {color:#F4F4FD;
         font-family: "Raleway", sans-serif;
@@ -311,8 +318,7 @@ padding: 100px 0;
         line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
-        margin-bottom: 16px;
-    display: inline-block;}
+        margin-bottom: 16px;}
 
     .text-footer {color:#F4F4FD;
         font-size: 16px;
